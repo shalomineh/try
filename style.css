@@ -1,0 +1,9 @@
+#div1{
+    display: flex;
+}
+#div1 p{
+    width: 30%;
+    background-color: aqua;
+    margin: auto;
+    height: 500px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOME | PAGE</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="div1">
+        </div>
+          
+          
+    </body>git remote
+</html>
+<script>
+    let names = ['Kaze','Djibril','Gabe'];
+    
+    names.forEach((name)=>{
+        const para = document.createElement("p");
+        const node = document.createTextNode(`Hello, ${name}`);
+        para.appendChild(node);
+    
+        const element = document.getElementById("div1");
+        const child = document.getElementById("p1");
+        element.insertBefore(para, child);
+    })
+</script>
